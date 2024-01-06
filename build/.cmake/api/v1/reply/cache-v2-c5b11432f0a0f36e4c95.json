@@ -1387,11 +1387,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : ""
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
+			"type" : "FILEPATH",
+			"value" : "D:/Git/cmd/git.exe"
 		},
 		{
 			"name" : "HGCOMMAND",
