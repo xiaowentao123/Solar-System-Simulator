@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "list": "cpp",
+        "type_traits": "cpp",
+        "vector": "cpp",
+        "xhash": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp",
+        "algorithm": "cpp",
+        "iterator": "cpp",
+        "cmath": "cpp",
+        "limits": "cpp",
+        "iostream": "cpp",
+        "string": "cpp"
+    }
+}

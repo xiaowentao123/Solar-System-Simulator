@@ -1,0 +1,9 @@
+D:/LearnOpenGL/Solar_system_simulator/build/CMakeFiles/Experimental.dir
+D:/LearnOpenGL/Solar_system_simulator/build/CMakeFiles/Nightly.dir
+D:/LearnOpenGL/Solar_system_simulator/build/CMakeFiles/Continuous.dir
+D:/LearnOpenGL/Solar_system_simulator/build/CMakeFiles/NightlyMemoryCheck.dir
+D:/LearnOpenGL/Solar_system_simulator/build/CMakeFiles/simulator.dir
+D:/LearnOpenGL/Solar_system_simulator/build/CMakeFiles/PACKAGE.dir
+D:/LearnOpenGL/Solar_system_simulator/build/CMakeFiles/RUN_TESTS.dir
+D:/LearnOpenGL/Solar_system_simulator/build/CMakeFiles/ALL_BUILD.dir
+D:/LearnOpenGL/Solar_system_simulator/build/CMakeFiles/ZERO_CHECK.dir

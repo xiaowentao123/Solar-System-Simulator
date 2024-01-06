@@ -1,0 +1,10 @@
+^D:\LEARNOPENGL\SOLAR_SYSTEM_SIMULATOR\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SD:/LearnOpenGL/Solar_system_simulator -BD:/LearnOpenGL/Solar_system_simulator/build --check-stamp-file D:/LearnOpenGL/Solar_system_simulator/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

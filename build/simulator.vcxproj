@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{53EAC9FE-E56E-3B39-A818-CC986C1A10C7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>simulator</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\LearnOpenGL\Solar_system_simulator\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">simulator.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">simulator</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\LearnOpenGL\Solar_system_simulator\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">simulator.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">simulator</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\LearnOpenGL\Solar_system_simulator\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">simulator.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">simulator</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\LearnOpenGL\Solar_system_simulator\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">simulator.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">simulator</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\opengl\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\opengl\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opengl\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\opengl\Libs\glfw3.lib;D:\opengl\Libs\assimp-vc143-mtd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/LearnOpenGL/Solar_system_simulator/build/Debug/simulator.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/LearnOpenGL/Solar_system_simulator/build/Debug/simulator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\opengl\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\opengl\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opengl\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\opengl\Libs\glfw3.lib;D:\opengl\Libs\assimp-vc143-mtd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/LearnOpenGL/Solar_system_simulator/build/Release/simulator.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/LearnOpenGL/Solar_system_simulator/build/Release/simulator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\opengl\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\opengl\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opengl\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\opengl\Libs\glfw3.lib;D:\opengl\Libs\assimp-vc143-mtd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/LearnOpenGL/Solar_system_simulator/build/MinSizeRel/simulator.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/LearnOpenGL/Solar_system_simulator/build/MinSizeRel/simulator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\opengl\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\opengl\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opengl\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\opengl\Libs\glfw3.lib;D:\opengl\Libs\assimp-vc143-mtd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/LearnOpenGL/Solar_system_simulator/build/RelWithDebInfo/simulator.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/LearnOpenGL/Solar_system_simulator/build/RelWithDebInfo/simulator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\LearnOpenGL\Solar_system_simulator\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/LearnOpenGL/Solar_system_simulator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/LearnOpenGL/Solar_system_simulator -BD:/LearnOpenGL/Solar_system_simulator/build --check-stamp-file D:/LearnOpenGL/Solar_system_simulator/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.27\Modules\CPack.cmake;D:\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.27\Modules\CTest.cmake;D:\CMake\share\cmake-3.27\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.27\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.27\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeCCompiler.cmake;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeCXXCompiler.cmake;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeRCCompiler.cmake;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/LearnOpenGL/Solar_system_simulator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/LearnOpenGL/Solar_system_simulator -BD:/LearnOpenGL/Solar_system_simulator/build --check-stamp-file D:/LearnOpenGL/Solar_system_simulator/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.27\Modules\CPack.cmake;D:\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.27\Modules\CTest.cmake;D:\CMake\share\cmake-3.27\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.27\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.27\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeCCompiler.cmake;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeCXXCompiler.cmake;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeRCCompiler.cmake;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/LearnOpenGL/Solar_system_simulator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/LearnOpenGL/Solar_system_simulator -BD:/LearnOpenGL/Solar_system_simulator/build --check-stamp-file D:/LearnOpenGL/Solar_system_simulator/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.27\Modules\CPack.cmake;D:\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.27\Modules\CTest.cmake;D:\CMake\share\cmake-3.27\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.27\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.27\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeCCompiler.cmake;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeCXXCompiler.cmake;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeRCCompiler.cmake;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/LearnOpenGL/Solar_system_simulator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/LearnOpenGL/Solar_system_simulator -BD:/LearnOpenGL/Solar_system_simulator/build --check-stamp-file D:/LearnOpenGL/Solar_system_simulator/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.27\Modules\CPack.cmake;D:\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.27\Modules\CTest.cmake;D:\CMake\share\cmake-3.27\Modules\CTestTargets.cmake;D:\CMake\share\cmake-3.27\Modules\CTestUseLaunchers.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.27\Modules\DartConfiguration.tcl.in;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeCCompiler.cmake;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeCXXCompiler.cmake;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeRCCompiler.cmake;D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\3.27.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\LearnOpenGL\Solar_system_simulator\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\main.cpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\glad.c" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\FPSCamera.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\FPSCamera.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Mesh.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Mesh.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Model.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Model.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Shader.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Shader.cpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\stb_image.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Utils.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Utils.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Object.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Object.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Earth.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Earth.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\SkyBox.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\SkyBox.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imgui_impl_glfw.h" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imgui_impl_glfw.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imgui_impl_opengl3.h" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imgui_impl_opengl3.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imconfig.h" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imgui_impl_opengl3_loader.h" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imgui.cpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imgui_widgets.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imgui.h" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imgui_internal.h" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imstb_textedit.h" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imstb_truetype.h" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\ImGui\imgui_tables.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Sun.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Sun.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Mercury.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Mercury.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Venus.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Venus.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Moon.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Moon.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Mars.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Mars.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Jupiter.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Jupiter.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Saturn.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Saturn.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Uranus.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Uranus.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Neptune.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Neptune.cpp" />
+    <ClInclude Include="D:\LearnOpenGL\Solar_system_simulator\Rock.hpp" />
+    <ClCompile Include="D:\LearnOpenGL\Solar_system_simulator\Rock.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\LearnOpenGL\Solar_system_simulator\build\ZERO_CHECK.vcxproj">
+      <Project>{28BA9C57-4C89-357A-8FF3-F15014F6CA7F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

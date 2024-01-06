@@ -1,0 +1,11 @@
+Model Information:
+* title:	Neptune
+* source:	https://sketchfab.com/3d-models/neptune-947a405a0a4348f9a49ff4bd3ed3cc4b
+* author:	Akshat (https://sketchfab.com/shooter24994)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Neptune" (https://sketchfab.com/3d-models/neptune-947a405a0a4348f9a49ff4bd3ed3cc4b) by Akshat (https://sketchfab.com/shooter24994) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
